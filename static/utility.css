@@ -1,0 +1,24 @@
+/* <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet"> */
+.max-width-1{
+    max-width: 80vw;
+
+}
+.max-width-2{
+    max-width: 60vw;
+
+}
+.m-auto{
+    margin: auto;
+}
+.my-2{
+    margin-bottom: 32px;
+    margin-top: 32px;
+}
+.m-auto2{
+    margin-left: 135px;
+}
+.center{
+    text-align: center;
+}

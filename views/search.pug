@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    style
+        include ..\static\style.css
+        include ..\static\utility.css
+        include ..\static\mobile.css
+        include ..\static\index.js
+    <!-- <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="utility.css">
+    <link rel="stylesheet" href="mobile.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet"> -->
+</head>
+
+<body>
+    <nav class="navigation max-width-1 m-auto">
+        <div class="nav-left">
+            <a href="/">
+                <span><img src="img/iblog.jpg" alt=""></span>
+                </a>
+            <ul>
+                <li><a href="/">home</a></li>
+                <li><a href="#">about</a></li>
+                <li><a href="/contact">contact</a></li>
+            </ul>
+        </div>
+        <div class="nav-right">
+            <form action="/search" method="get">
+            <input class="form-input" type="text" name="query" placeholder="Article Search">
+            <button id="btn">Search</button>
+            </form>
+        </div>
+    </nav>
+    <div class="max-width-1 m-auto">
+        <hr>
+    </div>
+    
+    <div class="home-articles max-width-1 m-auto">
+        <h2 id="get">Search Results For Django</h2>
+        <div class="home-article">
+            <div class="home-article-img">
+                <img src="img/v2.jpg" alt="">
+            </div>
+            <div class="home-article-content">
+                <a href="/blogpost"><h3>Lorem ipsum dolor sit amet.</h3></a>
+                <span>Author name</span>
+                <span>07 january 6 min read</span>
+            </div>
+        </div>
+        <div class="home-article">
+            <div class="home-article-img">
+                <img src="img/v3.jpg" alt="">
+            </div>
+            <div class="home-article-content">
+                <a href="/blogpost"><h3>Lorem ipsum dolor sit amet.</h3></a>
+                <span>Author name</span>
+                <span>07 january 6 min read</span>
+            </div>
+        </div>
+        <div class="home-article">
+            <div class="home-article-img">
+                <img src="img/v4.jpg" alt="">
+            </div>
+            <div class="home-article-content">
+                <a href="/blogpost"><h3>Lorem ipsum dolor sit amet.</h3></a>
+                <span>Author name</span>
+                <span>07 january 6 min read</span>
+            </div>
+        </div>
+        <div class="home-article">
+            <div class="home-article-img">
+                <img src="img/v5.jpg" alt="">
+            </div>
+            <div class="home-article-content">
+                <a href="/blogpost"><h3>Lorem ipsum dolor sit amet.</h3></a>
+                <span>Author name</span>
+                <span>07 january 6 min read</span>
+            </div>
+        </div>
+        <div class="home-article">
+            <div class="home-article-img">
+                <img src="img/articlE.jpg" alt="">
+            </div>
+            <div class="home-article-content">
+                <a href="/blogpost"><h3>Lorem ipsum dolor sit amet.</h3></a>
+                <span>Author name</span>
+                <span>07 january 6 min read</span>
+            </div>
+        </div>
+        
+    </div>
+    <div class="footer">
+        <p>Copyright &copy; iblog.com</p>
+        <a href="https://www.vecteezy.com/free-vector/keyboard">Vector Credits:Vecteezy</a>
+    </div>
+
+</body>
+
+</html>

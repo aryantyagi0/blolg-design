@@ -1,0 +1,151 @@
+*{
+    margin: 0;
+    padding: 0;
+font-family: 'Roboto', sans-serif; 
+}
+span img{
+    width: 123px;
+    margin: -20px;
+}
+.navigation{
+    padding-top: 25px;
+    /* height: 74px; */
+     /* background-color: red;   */
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Roboto', sans-serif;
+}
+.nav-left span{
+    font-size: 45px;
+    padding-top: 10px;
+}
+.nav-left{
+    font-size: 20px;
+    display: flex;
+}
+.nav-left ul{
+    display: flex;
+    margin: 0 77px;
+    font-size: 22px;
+    padding-bottom: 23px;
+}
+.nav-left ul li a{
+    margin-left: 14px;
+    text-decoration: none;
+    color: black;
+    font-size: 25px;
+    /* font-family: 'Roboto', sans-serif; */
+}
+.nav-left ul li{
+    list-style: none;
+}
+.nav-left ul li a:hover{
+    color: black;
+    font-weight: bold;
+}
+.content{
+    /* height: 255px; */
+     /* background-color: blue;   */
+     border: 3px solid red;
+    display: flex;
+    margin-top: 23px;
+    padding: 9px;
+    background-image: url('img/v3.jpg');
+    background-size: cover;
+    /* opacity: 0.15; */
+}
+.footer{
+    height: 50px;
+    /* background-color: rgb(137, 43, 226); */
+}
+.form-input{
+    padding: 3px 5px;
+    font-size: 16px;
+    border: 2px solid black;
+    border-radius: 4px;
+    margin: 0 13px;
+}
+.btn{
+    padding: 0 14px;
+    border: 2px solid black;
+    border-radius: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: all 0.5s ease-in-out;
+    margin-left: 4px;
+}
+.btn:hover{
+    color: white;
+    background-color: red;
+}
+.content-left{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 50px;
+}
+.content-right{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.content-right img{
+    height: 237px;
+    width: 219px;
+    border: 2px solid black;
+    border-radius: 200px;
+}
+.home-articles{
+    /* height: 455px; */
+    padding-top: 12px;
+    margin-top: 23px;
+    background-color: rgb(248,239,239);
+    position: relative;
+    /* background-color: red; */
+}
+.year-box{
+    position: absolute;
+    width:234px;
+    height: 260px;
+    /* background-color: red; */
+    right: 100px;
+    top: 100px;
+    font-size: 18px;
+}
+.year-box div{
+    margin-top: 20px;
+}
+
+
+.footer{
+    height: 50px;
+    background-color: brown; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: black;
+}
+.footer a{
+    color: black;
+}
+.home-article{
+    display: flex;
+    padding: 20px;
+    padding: 5px;
+    margin: 40px;
+}
+.home-article-content a {
+    text-decoration: none;
+    color: black;
+}
+.home-article-img img{
+    width: 257px;
+    height: 200px;
+    border: 2px solid black;
+}
+.home-article-content{
+    align-self: center;
+    padding: 0 25px;
+}
