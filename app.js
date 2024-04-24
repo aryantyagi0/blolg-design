@@ -1,8 +1,9 @@
 const express= require('express');
+require('dotenv').config()
 const path=require('path');
 const app=express();
 const bodyparser=require('body-parser')
-const port=1050;
+const port=process.env.PORT;
 const mongoose=require('mongoose');
 const { Console } = require('console');
 // mongoDB=('mongodb://localhost:27017/yoyo')
